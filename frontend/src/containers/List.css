@@ -11,4 +11,6 @@ font-weight: 600;
 .List .lander p {
 color: #999;
 }
-  
+.List .list-group li li {
+    text-align:center;
+}
