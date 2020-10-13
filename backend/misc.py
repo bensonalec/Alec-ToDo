@@ -9,6 +9,11 @@ users = {
             "username":"sample2@sample.com",
             "passHash":"password34",
             "id":1
+        },
+        {
+            "username":"donnieboy@sample.com",
+            "passHash":"h4ng0utW1thM3M0r3",
+            "id":2
         }
     ]
 }
