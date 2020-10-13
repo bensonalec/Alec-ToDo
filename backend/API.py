@@ -11,6 +11,10 @@ CORS(app,supports_credentials=True)
 def home():
     return ""
 
+@app.route('/ping', methods=['GET'])
+def ping_pong():
+    return jsonify('pong!')
+
 
 @app.route('/api/v1/users/login', methods=['POST'])
 def api_login():
